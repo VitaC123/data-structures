@@ -18,3 +18,8 @@ To demo, ````node <fileName>```` from the terminal.
   * Efficient deletes and insertions, O(1) time.
   * Eliminates individual indexes, which makes lookups expensive O(*i*) time, (must walk from the *head* to the *i*th item).
   * Does not need to have a specified length when created.
+
+* [Hash Table](hashTable.js)
+  * An unordered "key: value" data structure.
+  * Efficient lookups and insertions, average of O(1) time, (worst case is O(*n*) time, but unlikely).
+  * In JS, keys are always strings. 
