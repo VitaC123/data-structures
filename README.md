@@ -26,9 +26,20 @@ To demo, ````node <fileName>```` from the terminal.
 
 * [Stack](stack.js)
   * A "Last In First Out" data interface (LIFO).
+  * Highly efficient. Methods have O(1) time.
   * Two main methods:
     * push() - add to top.
     * pop() - remove and return top item.
   * Optional methods:
     * peek() - returns top item without removing it.
     * isEmpty() - returns a boolean.
+
+* [Queue](queue.js)
+  * A "First In First Out" data interface(FIFO).
+  * Highly efficient. Methods have O(1) time.
+  * Two main methods:
+    * enqueue() - add an item.
+    * dequeue() - remove item and return the next item in the queue.
+  * Optional methods:
+    * peek() - returns front item without removing it.
+    * isEmpty() = returns a boolean.
