@@ -23,3 +23,12 @@ To demo, ````node <fileName>```` from the terminal.
   * An unordered "key: value" data structure.
   * Efficient lookups and insertions, average of O(1) time, (worst case is O(*n*) time, but unlikely).
   * In JS, keys are always strings. 
+
+* [Stack](stack.js)
+  * A "Last In First Out" data interface (LIFO).
+  * Two main methods:
+    * push() - add to top.
+    * pop() - remove and return top item.
+  * Optional methods:
+    * peek() - returns top item without removing it.
+    * isEmpty() - returns a boolean.
